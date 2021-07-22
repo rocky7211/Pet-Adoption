@@ -1,0 +1,160 @@
+
+
+     /* Universal Styles */
+
+ body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+.flex-container {
+	display: flex;
+	justify-content: center;
+}
+
+     /* Header Section */
+
+header {
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	height: 60px;
+	background-color: rgba(0, 140, 100, 0.9);
+	border-bottom: solid 1px rgb(0, 140, 100);
+	align-items: center;
+}
+span h1{
+	font-family: 'Oswald', sans-serif;
+}
+header img {
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+nav {
+	text-align: right;
+	flex-grow: 1;
+}
+nav span {
+	display: inline-block;
+	padding: 20px 10px;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+     /* Mission Section */
+
+#mission {
+    position: relative;
+    padding-top: 20px;
+    background-image: url("file:///Users/jaredmcdowall/Desktop/Personal/Programming/Current%20Projects/Project%20-%20Pet%20Adoption/Resources/Images/liudmyla-denysiuk-iJ9o00UeAWk-unsplash(2).jpg");
+    height: 800px;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+#mission .flex-container {
+    align-content: center;
+}
+#mission .content {
+    margin: auto;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    padding-right: 20px;
+}
+#mission h2 {
+    font-size: 50px;
+}
+
+#mission h3 {
+    font-size: 30px;
+}
+.button {
+	border: solid 2px white;
+	width: 20%;
+	margin: auto;
+	max-width: 10%;
+	display: inline-block;
+	margin-right: 5%;
+	border-radius: 2.5px;
+	text-align: center;
+	background-color: transparent;
+	color: white;
+	font-size: 18px;
+	transition-duration: 0.4s;
+}
+.button:hover {
+	background-color: rgba(0, 140, 100, 0.6);
+}
+
+     /* Adoption Section */
+
+#dog {
+    background-color: rgba(0, 100, 128, 0.6);
+    padding-bottom: 5%;
+    position: relative;
+    padding-top: 1%;
+}
+#cat {
+    background-color: rgba(128, 0, 100, 0.6);
+    padding-bottom: 5%;
+    padding-top: 1%;
+}
+#rabit {
+    background-color: rgba(0, 130, 100, 0.6);
+    padding-bottom: 5%;
+    padding-top: 1%;
+}
+#hampster  {
+    background-color: rgba(0, 80, 120, 0.6);
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+     /* Location Section */
+
+#locations {
+	background-color: rgba(128, 0, 100, 0.6);
+	padding-top: 1%;
+	padding-bottom: 1%;
+	line-height: 0.3;
+}
+#locations h4 {
+	padding-bottom: 1%;
+}
+.grid-container {
+	display: grid;
+}
+.times1, .times3, .times5 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	text-align: right;
+	padding-right: 4%;
+}
+.times2, .times4, .times6 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	text-align: left;
+	padding-left: 2%;
+}
+.times7 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+     /* Footer Section */
+
+#footer {
+	background-color: rgba(128, 0, 100, 0.6);
+	padding: 0.1% 0.1%;
+}
+
